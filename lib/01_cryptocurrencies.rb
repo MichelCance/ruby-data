@@ -25,7 +25,7 @@ def crypto_max (crypto_hash)
 	puts crypto_hash.max_by {|k,v| v}
 end
 
-crypto_max (crypto_hash)
+crypto_max(crypto_hash)
 
 def crypto_min (crypto_hash)
 	puts crypto_hash.min_by {|k,v| v}
@@ -43,4 +43,17 @@ def coin_quantity(crypto)
    end 
 
   coin_quantity(crypto)
+
+#def inferior_6000(crypto_hash)
+	#crypto_hash= crypto_hash.sort_by{|k,v| v }
+  #hash.reverse! 
+  #hash.each_with_index { |k, v| puts "#{k} valeur #{v}" if v < 6000 }
+ 	#return
+#end
+
+ # inferior_6000
+
+
+
+
 
