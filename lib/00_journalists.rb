@@ -64,9 +64,9 @@ def uppercase_starting_quantity(journalists)
 
 	# Number with an underscore
 
-		def underscore_quantity(journalists)
-	qty = 0
-	journalists.each {
+	def underscore_quantity(journalists)
+		qty = 0
+		journalists.each {
 		|x|
     if x[/_/] then qty += 1 end
     	 }
